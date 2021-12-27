@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,0 +1,18 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap");
+
+/* Reset default margin css*/
+
+html,
+body,
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+}
+body {
+  line-height: 2;
+}

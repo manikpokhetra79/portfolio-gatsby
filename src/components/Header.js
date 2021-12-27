@@ -1,30 +1,35 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-
 const NavBar = styled.header`
-  h2 {
-    color: #333;
-    font-family: cursive;
-    letter-spacing: 2px;
-  }
-  padding: 1.2rem;
+  background-color: #f5f5f4;
+  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #f3f3f4;
+  padding: 0 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  a {
+    text-decoration: none;
+  }
+  h2 {
+    color: #d44101;
+    font-family: cursive;
+    padding-bottom: 2px;
+    font-size: 30px;
+  }
+  // list styles //
   ul {
     display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
-    letter-spacing: 1.5px;
-    font-family: Verdana;
     li {
       list-style-type: none;
       margin: 2px 8px;
       a {
         font-size: 18px;
-        text-decoration: none;
-        color: #000;
+        color: #6e6d79;
         font-weight: 500;
         &:hover {
           color: #0a7ac1;
@@ -54,7 +59,6 @@ const Header = () => {
         {" "}
         <h2>{data.title}</h2>
       </Link>
-
       <ul>
         <li>
           <Link to="/">Home</Link>

@@ -1,6 +1,6 @@
 ---
 title: "Second Blog Post"
-date: "2021-12-24"
+date: "2021-12-26"
 author: "Aryan Pokhetra"
 ---
 

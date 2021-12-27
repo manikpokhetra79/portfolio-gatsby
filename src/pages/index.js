@@ -1,12 +1,10 @@
 import React from "react"
 import Layout from "../components/Layout"
-
+import PageTitle from '../components/PageTitle'
 export default function Home() {
   return (
     <Layout>
-      <div>
-        <h1>Manik Pokhetra Portfolio Site</h1>
-      </div>
+     <PageTitle title="HomePage"/>
     </Layout>
   )
 }

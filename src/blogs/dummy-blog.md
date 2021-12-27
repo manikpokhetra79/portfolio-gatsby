@@ -1,14 +1,14 @@
 ---
 title: "First Blog Post"
-date: "2021-12-26"
+date: "2021-12-24"
 author: "Manik Pokhetra"
 ---
 
-![dummy](https://images.unsplash.com/photo-1634085443428-53613de015e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)
+![avatar]('./blog-1.jpeg')
 
 ## Why this lorem ipsum ?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We expect the shipment of a limited quantity of green beans next Monday. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Popular Concepts:
 
