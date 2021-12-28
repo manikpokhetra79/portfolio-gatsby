@@ -1,16 +1,15 @@
 ---
-title: "Second Blog Post"
-date: "2021-12-26"
+title: "Manik's Blog Post"
+date: "2021-12-28"
 author: "Aryan Pokhetra"
+featuredImage: "blog-1.jpeg"
 ---
 
 <!-- ![None](https://images.unsplash.com/photo-1640449906726-33502b36142e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60) -->
 
-![Blog 2](./blog-2.jpeg)
-
 ## Why this lorem ipsum ?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Popular Concepts:
 

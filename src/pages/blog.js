@@ -8,11 +8,11 @@ import PageTitle from "../components/PageTitle"
 const BlogList = styled.ul`
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  // align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
   li {
     list-style-type: none;
-    width: 45%;
+    width: 40%;
     padding: 10px 15px;
     margin: 10px;
     background-color: #f5f5f4;
@@ -20,23 +20,44 @@ const BlogList = styled.ul`
       0 0 0 1px rgb(43 37 35 / 2%);
     a {
       text-decoration: none;
-      color: #d54000;
+      color: #f9024d;
       &:hover {
         color: #fe4400;
       }
     }
     p {
-      font-size: 1rem;
       span {
         margin-right: 5px;
-        color: #d54000;
+        color: #f9024d;
       }
     }
   }
-  @media (max-width: 768px) {
+
+  // tablet screens
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    li {
+      width: 42%;
+      .excerpt {
+        height: 60px;
+        overflow: hidden;
+      }
+    }
+  }
+  // smartphones
+  @media screen and (max-width: 767px) {
     flex-direction: column;
     li {
       width: 80%;
+      .excerpt {
+        height: 60px;
+        overflow: hidden;
+      }
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding: 2px;
+    li {
+      width: 90%;
     }
   }
 `
@@ -74,7 +95,7 @@ const BlogPage = () => {
             <Link to={`/blog/${item.node.fields.slug}`}>
               <h2>{item.node.frontmatter.title}</h2>
             </Link>
-            <p>{item.node.excerpt}</p>
+            <p className="excerpt">{item.node.excerpt}</p>
             <p>
               <span>
                 <FontAwesomeIcon icon={faCalendarDay} />

@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
 import PageTitle from "../components/PageTitle"
-import manik_pic from "../assets/images/manik_pic.jpg"
-import AboutStyles from "./AboutStyles"
+import manik from "../assets/images/manik.jpeg"
+import AboutStyles from "../styles/AboutStyles"
 
 const AboutPage = () => {
   return (
@@ -10,7 +10,7 @@ const AboutPage = () => {
       <PageTitle title="About" />
       <AboutStyles>
         <div className="img-wrapper">
-          <img src={manik_pic} alt="my-pic" />
+          <img src={manik} alt="my-pic" />
         </div>
         <div className="bio-wrapper">
           <h2>About Me : </h2>
@@ -26,8 +26,7 @@ const AboutPage = () => {
           <ul>
             <li>Blogging.</li>
             <li> Video Editing.</li>
-            <li>Video Games Learning.</li>
-            <li>Gain new skills.</li>
+            <li>Video Games.</li>
           </ul>
           <h2>My skills</h2>
           <ul>

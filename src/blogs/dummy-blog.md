@@ -4,7 +4,7 @@ date: "2021-12-24"
 author: "Manik Pokhetra"
 ---
 
-![avatar]('./blog-1.jpeg')
+![avatar](./blog-1.jpeg)
 
 ## Why this lorem ipsum ?
 

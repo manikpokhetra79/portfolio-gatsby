@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+const { lazy } = require("react")
+
 module.exports = {
   /* Your site config here */
   siteMetadata: {
@@ -21,8 +23,24 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+              linkImagesToOriginal: false,
+              withWebp: true,
+              backgroundColor: `transparent`,
+              loading: `lazy`,
+              quality: 70,
+            },
+          },
+        ],
+      },
     },
   ],
 }

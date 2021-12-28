@@ -26,12 +26,11 @@ const blog = props => {
         <PageTitle title={markdownRemark.frontmatter.title} />
         <div className="sub-info">
           <div>
-            {" "}
-            <FontAwesomeIcon icon={faCalendarDay} />{" "}
+            <FontAwesomeIcon icon={faCalendarDay} />
             <span>{markdownRemark.frontmatter.date}</span>
           </div>
           <div>
-            <FontAwesomeIcon icon={faGlasses} />{" "}
+            <FontAwesomeIcon icon={faGlasses} />
             <span> {`${markdownRemark.timeToRead} min read`}</span>
           </div>
         </div>
