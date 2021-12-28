@@ -1,13 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Metadata from "../components/metadata"
 import PageTitle from "../components/PageTitle"
-import manik from "../assets/images/manik.jpeg"
 import manik2 from "../assets/images/manik2.jpeg"
 import AboutStyles from "../styles/AboutStyles"
 
 const AboutPage = () => {
   return (
     <Layout>
+      {" "}
+      <Metadata title="Home" description="This is my home page" />
       <PageTitle title="About" />
       <AboutStyles>
         <div className="img-wrapper">

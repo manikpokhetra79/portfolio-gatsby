@@ -14,7 +14,6 @@ const AboutStyles = styled.div`
     img {
       width: 100%;
       height: 100%;
-      border: 1px solid #ddd;
       border-radius: 4px;
       padding: 5px;
       object-fit: fill;

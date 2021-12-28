@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Metadata from "../components/metadata"
 import { graphql } from "gatsby"
 import { BlogContainer } from "./BlogDesign"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -12,6 +13,7 @@ export const query = graphql`
         title
         date
       }
+      excerpt
       html
       timeToRead
     }
@@ -22,6 +24,10 @@ const blog = props => {
   const { markdownRemark } = props.data
   return (
     <Layout>
+      <Metadata
+        title={markdownRemark.frontmatter.title}
+        description={markdownRemark.excerpt}
+      />
       <BlogContainer>
         <PageTitle title={markdownRemark.frontmatter.title} />
         <div className="sub-info">

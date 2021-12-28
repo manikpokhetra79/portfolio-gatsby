@@ -16,6 +16,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-fontawesome-css`,
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,6 +24,7 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -42,5 +44,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Manik Pokhetra`,
+        short_name: `ManikPokhetra`,
+        start_url: `/`,
+        background_color: `#1C97F1`,
+        theme_color: `#F9024D`,
+        display: `standalone`,
+        icon: "src/assets/icons/icon.png",
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

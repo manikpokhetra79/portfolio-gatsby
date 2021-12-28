@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-// import PageTitle from "../components/PageTitle"
+import Metadata from "../components/metadata"
 import manik2 from "../assets/images/manik2.jpeg"
 import { HomeContainer, SocialIcons } from "../styles/HomeStyles"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -13,6 +13,7 @@ import {
 export default function Home() {
   return (
     <Layout>
+      <Metadata title="Home" description="This is my home page" />
       <HomeContainer>
         <div className="img-wrapper">
           <img src={manik2} alt="my-pic" />

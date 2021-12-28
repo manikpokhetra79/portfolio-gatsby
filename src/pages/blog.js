@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import Metadata from "../components/metadata"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCalendarDay } from "@fortawesome/free-solid-svg-icons"
@@ -86,7 +87,7 @@ const BlogPage = () => {
 
   return (
     <Layout>
-      {" "}
+      <Metadata title="Blog" description="This is my blogs page" />
       <PageTitle title="Blogs Page" />
       <BlogList>
         {edges?.map(item => (
