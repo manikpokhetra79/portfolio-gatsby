@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 // import PageTitle from "../components/PageTitle"
-import manik from "../assets/images/manik.jpeg"
+import manik2 from "../assets/images/manik2.jpeg"
 import { HomeContainer, SocialIcons } from "../styles/HomeStyles"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -15,14 +15,22 @@ export default function Home() {
     <Layout>
       <HomeContainer>
         <div className="img-wrapper">
-          <img src={manik} alt="my-pic" />
+          <img src={manik2} alt="my-pic" />
         </div>
         <div className="bio-wrapper">
           <p className="sub-text">Welcome to my Portfolio website</p>
           <div class="inner text-left">
             <h2 class="title">
-              Hi, I’m Manik Pokhetra <br />
-              <span className="tags"> Web Developer.</span>
+              Hi,&nbsp;
+              <span>
+                <img
+                  className="hi-pic"
+                  src="https://c.tenor.com/2UVnszq99aIAAAAi/epic-pog.gif"
+                  alt="hi"
+                />
+              </span>
+              &nbsp; I’m Manik Pokhetra , <br />
+              <span className="tags">Web Developer.</span>
               <br />
               <span>based in India.</span>
             </h2>

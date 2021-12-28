@@ -15,6 +15,8 @@ export const HomeContainer = styled.div`
       border: 14px solid #fff;
       width: 400px;
       height: 400px;
+      object-fit: cover;
+      object-position: 70% 50%;
       box-shadow: 0 20px 40px rgb(0 0 0 / 10%),
         0 20px 40px hsl(0deg 0% 100% / 15%);
     }
@@ -30,6 +32,9 @@ export const HomeContainer = styled.div`
       line-height: 1.6;
       font-weight: 800;
       font-family: "Montserrat", sans-serif;
+      .hi-pic {
+        width: 50px;
+      }
       .tags {
         color: #f9004d;
       }
@@ -52,7 +57,10 @@ export const HomeContainer = styled.div`
     }
     .bio-wrapper {
       font-size: 1.4rem;
-      .sub-text {
+      .inner {
+        .hi-pic {
+          width: 40px;
+        }
       }
     }
   }
@@ -72,6 +80,11 @@ export const HomeContainer = styled.div`
     }
     .bio-wrapper {
       font-size: 1.4rem;
+      .inner {
+        .hi-pic {
+          width: 30px;
+        }
+      }
       h2 {
         font-size: 1.6rem;
       }
@@ -114,6 +127,11 @@ export const SocialIcons = styled.div`
     color: #f9004d;
     &:hover {
       color: #1685e8;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    svg {
+      font-size: 30px;
     }
   }
 `

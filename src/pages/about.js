@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import PageTitle from "../components/PageTitle"
 import manik from "../assets/images/manik.jpeg"
+import manik2 from "../assets/images/manik2.jpeg"
 import AboutStyles from "../styles/AboutStyles"
 
 const AboutPage = () => {
@@ -10,7 +11,7 @@ const AboutPage = () => {
       <PageTitle title="About" />
       <AboutStyles>
         <div className="img-wrapper">
-          <img src={manik} alt="my-pic" />
+          <img src={manik2} alt="my-pic" />
         </div>
         <div className="bio-wrapper">
           <h2>About Me : </h2>
