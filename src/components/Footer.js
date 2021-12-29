@@ -2,16 +2,16 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 const FooterStyles = styled.footer`
-  border-top: 3px solid #f9024d;
+  border-top: 3px solid #49bcac;
   padding: 10px;
-  background-color: #141619;
+  background-color: #48526b;
   color: #b9babb;
   font-family: "Montserrat", sans-serif;
   .foot-inner-container {
     padding: 0 10px;
     font-size: 16px;
     span {
-      color: #f9024d;
+      color: #49bcac;
       font-weight: 800;
     }
   }

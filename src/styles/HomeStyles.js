@@ -36,7 +36,7 @@ export const HomeContainer = styled.div`
         width: 50px;
       }
       .tags {
-        color: #f9004d;
+        color: #49bcac;
       }
     }
   }
@@ -124,9 +124,9 @@ export const SocialIcons = styled.div`
   svg {
     font-size: 40px;
     cursor: pointer;
-    color: #f9004d;
+    color: #49bcac;
     &:hover {
-      color: #1685e8;
+      color: #48526b;
     }
   }
   @media screen and (max-width: 767px) {

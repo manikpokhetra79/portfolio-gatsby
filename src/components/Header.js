@@ -2,21 +2,21 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 const NavBar = styled.header`
-  background-color: #f5f5f4;
+  background-color: #48526b;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 3px solid #f9024d;
+  border-bottom: 3px solid #333;
   padding: 0 1.2rem;
   font-family: "Montserrat", sans-serif;
   a {
     text-decoration: none;
   }
   .active-link {
-    color: #f9024d;
+    color: #49bcac;
   }
   .title {
-    color: #f9024d;
+    color: #49bcac;
     font-family: cursive;
     padding-bottom: 2px;
     font-size: 30px;
@@ -32,11 +32,11 @@ const NavBar = styled.header`
 
       a {
         font-size: 16px;
-        color: #6e6d79;
+        color: #fff;
         font-weight: 600;
         transition: all 0.3s;
         &:hover {
-          color: #f9024d;
+          color: #49bcac;
         }
       }
     }

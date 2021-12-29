@@ -21,15 +21,15 @@ const BlogList = styled.ul`
       0 0 0 1px rgb(43 37 35 / 2%);
     a {
       text-decoration: none;
-      color: #f9024d;
+      color: #49bcac;
       &:hover {
-        color: #fe4400;
+        color: #48526B;
       }
     }
     p {
       span {
         margin-right: 5px;
-        color: #f9024d;
+        color: #49bcac;
       }
     }
   }

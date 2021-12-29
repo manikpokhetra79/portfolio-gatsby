@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faScroll } from "@fortawesome/free-solid-svg-icons"
 const Heading = styled.h1`
-  color: #F9024D;
+  color: #49bcac;
   svg {
     margin-left: 10px;
   }

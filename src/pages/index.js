@@ -20,8 +20,8 @@ export default function Home() {
         </div>
         <div className="bio-wrapper">
           <p className="sub-text">Welcome to my Portfolio website</p>
-          <div class="inner text-left">
-            <h2 class="title">
+          <div className="inner text-left">
+            <h2 className="title">
               Hi,&nbsp;
               <span>
                 <img

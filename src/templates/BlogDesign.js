@@ -17,7 +17,7 @@ export const BlogContainer = styled.div`
   }
   a {
     text-decoration: none;
-    color: #d44101;
+    color: #49BCAC;
   }
   hr {
     border-color: #eee;
@@ -89,7 +89,7 @@ export const BlogContainer = styled.div`
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: left;
-      background-color: #d44101;
+      background-color: #49BCAC;
       color: white;
       font-size: 1rem;
     }

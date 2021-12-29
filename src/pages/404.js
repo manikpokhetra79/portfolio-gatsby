@@ -6,14 +6,14 @@ import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 const Container404 = styled.div`
   text-align: center;
-  color: #f9024d;
+  color: #2196F3;
 `
 const BlogButton = styled.button`
   margin: 1rem;
   width: auto;
   background: transparent;
   font-size: 16px;
-  border-color: #f9024d;
+  border-color: #2196F3;
   border-style: solid;
   border-width: 2px;
   border-radius: 22px;
@@ -21,13 +21,13 @@ const BlogButton = styled.button`
   text-transform: uppercase;
   transition: all 0.2s linear;
   cursor: pointer;
-  color: #f9024d;
+  color: #2196F3;
   a {
     text-decoration: none;
   }
   &:hover {
     color: white;
-    background: #f9024d;
+    background: #2196F3;
     border-color: white;
     transition: all 0.2s linear;
   }

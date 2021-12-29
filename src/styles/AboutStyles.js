@@ -31,11 +31,11 @@ const AboutStyles = styled.div`
     text-transform: capitalize;
     width: 45vw;
     .sp-text {
-      color: #f9024d;
+      color: #49BCAC;
     }
     h2 {
-      color: #f9024d;
-      border-bottom: 5px solid #f9024d;
+      color: #49BCAC;
+      border-bottom: 5px solid #49BCAC;
     }
     ul {
       list-style-type: square;
